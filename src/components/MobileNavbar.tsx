@@ -75,12 +75,7 @@ function MobileNavbar() {
               </>
             ) : (
               <SignInButton mode="modal">
-                {/* Tambahkan onClick handler untuk menutup menu */}
-                <Button 
-                  variant="default" 
-                  className="w-full"
-                  onClick={() => setShowMobileMenu(false)}
-                >
+                <Button variant="default" className="w-full">
                   Sign In
                 </Button>
               </SignInButton>
